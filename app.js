@@ -8,8 +8,8 @@ app.get('/', function (req, res) {
   res.render('./index');
 });
 
-app.set('port', (process.env.PORT || 3000));
+// app.set('port', (process.env.PORT || 3000));
 
-app.listen(app.get('port'), function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log('Node app is running on port', app.get('port'));
 });

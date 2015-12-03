@@ -2,20 +2,19 @@
   "name": "github",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node app.js",
-    "postinstall": "bower install"
-  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrose111284/github-profiles.git"
   },
-  "author": "",
-  "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/jrose111284/github-profiles/issues"
   },
-  "homepage": "https://github.com/jrose111284/github-profiles#readme",
+
   "devDependencies": {
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.15",
@@ -24,13 +23,15 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "phantomjs": "^1.9.19"
   },
-  "directories": {
-    "test": "test"
+
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install"
   },
-  "description": "",
+
   "dependencies": {
     "express": "^4.13.3",
     "http-server": "^0.8.5",
-    "bower": "^1.6.8",
+    "bower": "^1.6.8"
   }
 }
